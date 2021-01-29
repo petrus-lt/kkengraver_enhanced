@@ -17,5 +17,12 @@ So this software does two thing:
 1. Engrave tests with variing power and depth settings
 2. Cutting tests with variing amount of cutting passes
 
-
+<p float="left">
+ <img src="https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/CO2_traffic_light_7-segment_version_FRONT.jpg" height="450"/>
+ <img src="https://github.com/Alasterer/CO2_traffic_light/blob/main/CO2_traffic_light_7-segment_version_CONSTRUCTION.jpg" height="450"/>
+</p>
+<p float="left">
+ <img src="https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/CO2_traffic_light_7-segment_version_BACK.jpg" width="400"/>
+ <img src="https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/CO2_traffic_light_7-segment_version_INTERNALS.jpg" width="400"/>
+</p>
 
