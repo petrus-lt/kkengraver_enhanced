@@ -17,9 +17,15 @@ So this software does two thing:
 1. Engrave tests with variing power and depth settings
 2. Cutting tests with variing amount of cutting passes
 
+## How to run
+
+1. Start TEST1.py
+2. Select if you want to actively engrave/cut or only use dummy movements and low-power drawing frames
+3. Select COM port from selection list (only works with Windows)
+4. Select desired testing mode from test menu options
+5. Check and confirm if drawing frame is centered on test piece correctly
+6. Wait until test is finished and observe progress via webcam (if installed for viewing progress)
+
 <p float="left">
  <img src="https://github.com/Alasterer/kkengraver_enhanced/blob/main/Laser_Engraver_Test_Templates_v4.jpg" height="900"/>
 </p>
-
-## How to run
-
