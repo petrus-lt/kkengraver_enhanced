@@ -18,7 +18,7 @@ So this software does two thing:
 2. Cutting tests with variing amount of cutting passes
 
 <p float="left">
- <img src="https://github.com/Alasterer/kkengraver_enhanced/blob/main/Laser_Engraver_Test_Templates_v4.jpg" height="600"/>
+ <img src="https://github.com/Alasterer/kkengraver_enhanced/blob/main/Laser_Engraver_Test_Templates_v4.jpg" height="900"/>
 </p>
 
 
