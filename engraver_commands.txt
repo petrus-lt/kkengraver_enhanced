@@ -1,0 +1,33 @@
+kkengraver
+(KKMoon Engraver Python Script)
+https://github.com/aquamorta/kkengraver
+
+
+Home (with verbose output):
+python engraver_v3.py -d COM9 -v -H
+
+Case Fan On:
+python engraver_v3.py -d COM9 -v --fan
+
+Case Fan Off:
+python engraver_v3.py -d COM9 -v --no-fan
+
+Show a moving frame (i.e. frame of size x=25mm and y=10mm relative to origin [=corner of center]):
+python engraver_v3.py -d COM9 -v -f 25mm:10mm
+
+Move positive (x=10, y=8):
+python engraver_v3.py -d COM9 -v -m 10:8
+
+Move negative (x=-10, y=-8) (with verbose output):
+python engraver_v3.py -d COM9 -v -m " -10:-8" -v
+
+Draw Checkerboard (checkboard pattern 4 by 4 with a tile size of 4mm):
+python engraver_v3.py -d COM9 -v --checkerboard 4mm 4
+
+Draw Checkerboard (checkboard pattern 1 by 1 [=only one tile] with size of 5mm with one power and one speed):
+python engraver_v3.py -d COM9 -v --checkerboard 5mm 1
+
+Set Depth (i.e. 15%) and Power (i.e. 33%):
+python engraver_v3.py -d COM9 -v -D 15 -P 33 --checkerboard 5mm 1
+
+
