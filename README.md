@@ -1,5 +1,5 @@
 # KKengraver Enhanced
-A command line tool for a KKMoon laser engraver, improved version based on aquamorta's kkengraver
+A command line tool for a KKMoon laser engraver, improved version based on both aquamorta's kkengraver and  Alasterer's kkengraver_enhanced, with linux support. Windows support is untested.
 
 # Description of the engraver software
 
