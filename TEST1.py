@@ -17,8 +17,8 @@
 
 # from engraver_B_b1 import main as laser
 import sys
-import os
-# import subprocess
+#import os
+import subprocess
 import time
 
 global COM_port
@@ -33,7 +33,7 @@ def showComPortsAvailable():
 def laser(command):
     global COM_port
     #os.system('"python engraver_B_b2.py -d' + COM_port + ' -v ' + command +'"')
-    os.system('"python engraver_B_b2.py -d' + COM_port + ' ' + command +'"')
+    subprocess.call('python engraver_B_b2.py -d' + COM_port + ' ' + command, shell=True)
 
 # def laser_separate_window(command):
 #     global COM_port
