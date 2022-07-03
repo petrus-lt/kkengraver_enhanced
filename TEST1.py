@@ -109,7 +109,7 @@ try:
     print('COM ports available')
     print('-------------------')
     showComPortsAvailable()
-    COM_port_number = input('Please select COM port number [1 to 256]: ')
+    COM_port_number = input('Please select COM port number [1 to 256] or tty device (complete path) : ')
     try:
         COM_port_number = int(COM_port_number)
     except:
@@ -122,7 +122,7 @@ try:
             COM_port = 'COM9'            
     else:
         print('COM port number not correct. Testing if COM9 is working')
-        COM_port = 'COM9'
+        COM_port = COM_port_number
     print('Port ' + COM_port + ' selected')
     
     # laser('--fan')      # Fan ON 
