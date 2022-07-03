@@ -121,7 +121,7 @@ try:
             print('COM port number not correct. Testing if COM9 is working')
             COM_port = 'COM9'            
     else:
-        print('COM port number not correct. Testing if COM9 is working')
+        print('COM port number not in Windows format. Using what was entered')
         COM_port = COM_port_number
     print('Port ' + COM_port + ' selected')
     
